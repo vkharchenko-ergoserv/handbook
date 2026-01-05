@@ -1,6 +1,6 @@
 # ErgoServ Handbook
 
-Our collection of guides, recipes, and scripts for helping you get things done better. 
+Our collection of guides, recipes, and scripts for helping you get things done better.
 Crafted by and used at [ErgoServ](https://www.ergoserv.com).
 
 ## Table of Contents
@@ -25,7 +25,6 @@ Crafted by and used at [ErgoServ](https://www.ergoserv.com).
   - [Services and Tools](guides/services_and_tools.md)
   - [Testing](guides/testing.md)
   - [Variables](guides/variables.md)
-  - [Vocabulary](guides/vocabulary.md)
 
 ### Inspired by
 
