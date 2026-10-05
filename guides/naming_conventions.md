@@ -49,16 +49,6 @@ Heroku application names share a global namespace, so they must be unique. Prefi
 
 * Production Auth App: `ergoserv-auth-prod`
 
-**Add-on Naming (e.g., Databases, Redis):**
-Use the app name as the base and append the resource type.
-`<project>-<service>-<environment>-<addon_type>`
-
-**Examples:**
-
-* Postgres DB: `ergoserv-auth-staging-db`
-
-* Redis Cache: `ergoserv-auth-staging-redis`
-
 ## 3. AWS Resources
 
 Standardizing tags is mandatory in AWS, but resource names themselves must self-describe their context and type. S3 buckets and some other resources require global uniqueness across all AWS accounts.
