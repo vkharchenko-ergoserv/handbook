@@ -1,4 +1,4 @@
-# Naming Conventions for Infrastructure Resources
+# Naming Conventions
 
 This document defines universal naming conventions for domains, Heroku resources, and AWS resources across all projects to ensure consistency, readability, and streamlined infrastructure management.
 
