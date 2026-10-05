@@ -14,6 +14,8 @@ This document defines universal naming conventions for domains, Heroku resources
 
 * **Length Constraints & Abbreviations:** Cloud providers enforce strict character limits (e.g., Heroku apps max out at 30 characters). If a standard name exceeds the limit:
 
+  * Shorten the region code first if one is used (e.g., `euw2` instead of `eu-west-2`).
+
   * Shorten the service name using recognizable abbreviations (e.g., `auth` instead of `authentication`, `notif` instead of `notifications`).
 
   * Use the short environment code (e.g., `stg` instead of `staging`).
@@ -90,15 +92,13 @@ Standardizing tags is mandatory in AWS, but resource names themselves must self-
 
 * **Heroku apps:** `ergoserv-server-staging` and `ergoserv-server-prod`
 
-* **AWS S3 Bucket:** `ergoserv-staging-assets` and `ergoserv-prod-assets`
+* **AWS S3 Buckets:** `ergoserv-staging-assets` and `ergoserv-prod-assets`
 
 **Auth Service**
 
 * **Domain:** `auth.ergoserv.com`
 
 * **Heroku App:** `ergoserv-auth-prod`
-
-* **Heroku Add-on (Postgres):** `ergoserv-auth-prod-db`
 
 * **AWS EC2 Instance:** `ergoserv-auth-prod-ec2-01`
 
@@ -110,8 +110,6 @@ Standardizing tags is mandatory in AWS, but resource names themselves must self-
 
 * **Heroku App:** `ergoserv-auth-staging-2`
 
-* **Heroku Add-on (Postgres):** `ergoserv-auth-staging-2-db`
-
 * **AWS EC2 Instance:** `ergoserv-auth-staging-2-ec2-01`
 
 * **AWS RDS Database:** `ergoserv-auth-staging-2-rds`
@@ -121,8 +119,6 @@ Standardizing tags is mandatory in AWS, but resource names themselves must self-
 * **Domain (Internal DNS):** `euw2.postgres.staging.auth.ergoserv.com`
 
 * **Heroku App:** `ergoserv-auth-staging-euw2`
-
-* **Heroku Add-on (Postgres):** `ergoserv-auth-staging-euw2-db`
 
 * **AWS EC2 Instance:** `ergoserv-auth-staging-euw2-ec2-01`
 
