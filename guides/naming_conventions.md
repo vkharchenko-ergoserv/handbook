@@ -116,7 +116,7 @@ Standardizing tags is mandatory in AWS, but resource names themselves must self-
 
 **Multi-Region Case**
 
-* **Domain (Internal DNS):** `euw2.postgres.staging.auth.ergoserv.com`
+* **Domain:** `euw2.staging.auth.ergoserv.com`
 
 * **Heroku App:** `ergoserv-auth-staging-euw2`
 
